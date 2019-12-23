@@ -1,0 +1,13 @@
+Task1:
+Am apelat functia strlen si am memorat in ecx de unde incepe lungimea sirului si in eax formez de unde incepe cheia.Iau primul byte din ecx si primul din eax si fac xor la cei doi in ecx.Continui asa pana jung la final.
+
+Task2:
+La taskul 2 in rolling_xor am apelat functia strlen si in ecx salvez pozitia ultimului caracter.Iau sirul de la final la inceput si fac xor in ultimul byte intre ultimul byte si penultimul.Repet operatia pana cand ajung la primul caracter si ma opresc.
+
+Task3:
+La taskul 3 am apelat strlen si retin in ecx de unde incepe sirul si in eax de unde incepe cheia.In xor_hex_strings il retin pe ecx in edi.
+Iau primul byte din ecx si daca e litera il scad cu 87(scad cu 97 pentru cifra a si adun cu 10 pentru hexazecimal) ,daca e cifra scad caracterul 0 ,fac la fel si pentru al doilea byte apoi pe primul il inmultesc cu 16 si il adun pe al doilea si asfel numarul otinut il memorez in pe pozitia [edi].Continui pana ajung la final.Apoi fac acelasi lucru si pentru cheie si la fel ca la task 1 pentru stringul si cheia formata fac xor.
+
+Task6:
+La task 6 apelez strlen si retin in ecx de unde incepe sirul si in eax de unde incepe cheia.Iau primul byte din eax scad caracterul 'a'. Compar cu 'a' sa vad daca trbuie sa iau alfabetul de la capat sau nu(adica sa adun cu 26).
+Dupa ce modific cate un byte din eax il scad la ecx si compar byte-ul din ecx cu 'a' sa vad daca trbuie sa iau alfabetul de la capat sau nu(adica sa adun cu 26).

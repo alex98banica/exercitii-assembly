@@ -1,0 +1,7 @@
+In labelul BODY retin in eax cate un byte din expresia citita iar in ebx urmatorul byte dupa eax din expresie,deplasamandu-ma folosind registrul ecx.
+apoi verific daca charul curent e operatie, spatiu sau a ajuns la final.
+Iar la "-" se verifica daca urmatorul caracter e numar sau spatiu si in functie de asta se construieste numarul negativ conform labelul nrneg sau se face operatia.
+Daca charul nu e operatie spatiu sau a ajuns la final se construieste numarul conform labelului nrpoz.
+Daca se ajunge la spatiu se adauga pe stiva cu ajutorul labelului adaugastiva.
+Pentru fiecare operatie se foloseste labelul corespunzator.
+Iar daca se ajunge la final se afiseaza ce a ramas in stiva si se afiseaza.
